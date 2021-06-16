@@ -1,0 +1,26 @@
+.team_list {
+  display: flex;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: -16px;
+  margin-right: -16px;
+  background-color:rgba(251, 242, 218, 1);
+}
+
+.team-people {
+  position: relative;
+  display: block;
+  color: #fff;
+}
+.team_item{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, .5);
+}

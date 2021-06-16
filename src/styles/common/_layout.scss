@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  margin-top: 191px;
+  margin-bottom: 323px;
+  font-size: 116px;
+  font-weight: 300;
+  line-height: 136px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.btn {
+  height: 63px;
+  width: 164px;
+  left: 0px;
+  top: 43px;
+  border-radius: 5px;
+  padding: 15px, 30px, 15px, 30px;
+  background: orange;
+}
