@@ -11,17 +11,29 @@
 h1 {
   font-family: "Raleway", sans-serif;
   margin-top: 191px;
-  margin-bottom: 323px;
+  margin-left: 495px;
   font-size: 116px;
   font-weight: 300;
   line-height: 136px;
   text-align: center;
+  color: #FFFFFF;
 }
 
 h2 {
-  font-size: 42px;
-  font-weight: 700;
-  line-height: 55px;
+  font-family: "Open sans", sans-serif;
+  font-size: 58px;
+  font-weight: 300;
+  line-height: 68px;
+  text-align: center;
+  color: orange;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
 }
 
 p {
@@ -29,12 +41,4 @@ p {
   line-height: 28px;
 }
 
-.btn {
-  height: 63px;
-  width: 164px;
-  left: 0px;
-  top: 43px;
-  border-radius: 5px;
-  padding: 15px, 30px, 15px, 30px;
-  background: orange;
-}
+

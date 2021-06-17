@@ -2,5 +2,15 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
   background-color: rgba(251, 242, 218, 0.2);
+}
+
+.locations_info {
+  flex-wrap: wrap;
+  width: 1440px;
+}
+
+.locations_item {
+  width: 50%;
 }

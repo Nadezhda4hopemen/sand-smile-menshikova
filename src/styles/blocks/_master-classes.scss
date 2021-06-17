@@ -1,0 +1,40 @@
+.master-classes {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(251, 242, 218, 0.2);
+}
+
+.master-classes_item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  width: 1278px;
+  height: 730px;
+  border: 1px solid rgba(21, 43, 60, 0.1);
+}
+
+.master-class {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.master-class_li {
+  font-family: "Open sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #D46240;
+}
+
+.master-class_btn {
+  font-size: 28px;
+  font-weight: semibold;
+  color: #D46240;
+}
+
+
