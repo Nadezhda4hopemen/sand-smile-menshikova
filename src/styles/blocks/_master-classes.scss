@@ -2,26 +2,42 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  width: 1440px;
+  height: 1048px;
   background-color: rgba(251, 242, 218, 0.2);
 }
 
-.master-classes_item {
+.master-classes-title {
+  margin-top: 100px;
+}
+
+.master-classes_list {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px;
   width: 1278px;
   height: 730px;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 81px;
+  margin-right: 81px;
+  margin-bottom: 100px;
+}
+
+.master-classes_item {
+  text-align: center;
+  width: 406px;
+  height: 730px;
+  background-size: cover;
   border: 1px solid rgba(21, 43, 60, 0.1);
 }
 
 .master-class {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
+}
+
+.master-class_ul {
+  list-style: none; /* убираем маркеры */
 }
 
 .master-class_li {
@@ -31,9 +47,28 @@
   color: #D46240;
 }
 
+.master-class_text {
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 16px;
+  margin-left: 16px;
+  color: 152B3C;
+}
+
 .master-class_btn {
   font-size: 28px;
   font-weight: semibold;
+  background: center;
+  text-align: center;
+  color: #D46240;
+}
+
+.icon_btn {
+  display: block;
+  font-size: 28px;
+  font-weight: semibold;
+  background-position: center;
+  text-align: center;
   color: #D46240;
 }
 
