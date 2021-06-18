@@ -2,8 +2,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  left: 0px;
-  top: 0px;
+  max-width: 1440px;
   margin: 0 auto;
   background-color:#152B3C;
 }
@@ -13,40 +12,73 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  align-items: center;
+}
+
+.header_logo {
+  padding: 25px 127px 25px 81px;
 }
 
 .main-nav {
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background: #333;
+  background: #152B3C;
 }
 
 .main-nav_list {
+  display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none; /* убираем маркеры */
 }
 
+.main-nav_li {
+  font-family: "Open sans", sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+  margin-top: 33px;
+  margin-left: 30px;
+  margin-bottom: 33px;
+  background-color:#152B3C;
+}
+
+.main-nav_li_select {
+  margin-top: 33px;
+  margin-left: auto;
+}
+
+.main-nav_a_select {
+  color: #D46240;
+  text-decoration: none;;
+}
+
+.main-nav_a {
+  color: #FBF2DA;
+  text-decoration: none;
+}
+
 .logo {
   display: block;
+  width: 206px;
   text-align: left;
-  padding: 25px 202px 25px 81px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 49px;
+  color: #FBF2DA;
 }
 
 .header_tel {
   display: block;
-  width: 219px;
-  height: 33px;
-  left: 1140px;
-  top: 33.5px;
+  margin-right: 81px;
+  margin-left: 121px;
   font-family: Roboto, sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 33px;
   text-align: right;
+}
+.phone {
+  text-decoration: none;
   color: #FBF2DA;
 }
