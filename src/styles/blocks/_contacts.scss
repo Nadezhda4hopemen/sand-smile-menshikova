@@ -1,18 +1,46 @@
 .contacts {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background: rgba(251, 242, 218, 0.2);
 }
 
+.contacts-title {
+  display: block;
+  width: 257px;
+  margin-top: 100px;
+  margin-left: 542px;
+}
+
+.contacts-about {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1440px;
+}
+
+.contacts-text {
+  width: 1060px;
+  height: 54px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 150px;
+}
 
 .contacts-form {
   display: inline-block;
+  top: 50%;
+  left: 50%;
+  width: 842px;
+  height: 505px;
+  left: 299px;
+  top: 339px;
+  margin-top: 87px;
   align-items: center;
 }
 
 .contacts-form-field {
-  justify-content: center;
   margin-bottom: 45px;
 
   input,
@@ -27,7 +55,7 @@
   }
 
   textarea {
-    height: 847px;
+    height: 167px;
     font-family: "Open sans", sans-serif;
     resize: vertical;
   }
@@ -38,19 +66,24 @@
     display: none;
   }
 
-  input:checked + label:before {
-    background-color: #D46240;
-  }
+  label {
+    display: flex;
 
-  label:before {
+    &:before {
     content: '';
-    background-color: #D46240;
+    background-image: url(../icons/contacts-ic_round-check-box.svg);
+
     display: inline-block;
     border: 1px solid #D46240;
     width: 31px;
     height: 31px;
     margin-right: 5px;
     border-radius: 4px;
+    background-size: 100%;
   }
+}
 
+input:checked + label:before {
+  background-color: #D46240;
+}
 }

@@ -5,6 +5,25 @@
   background-color: rgba(21, 43, 60, 1);
 }
 
+.social {
+  display: flex;
+
+  width: 1440px;
+  height: 87px;
+  justify-content: space-between;
+  margin-left: 81.5px;
+}
+
+.social_icon {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.instagram {
+  margin-right: 10px;
+}
+
 .social_link {
   display: flex;
 }
