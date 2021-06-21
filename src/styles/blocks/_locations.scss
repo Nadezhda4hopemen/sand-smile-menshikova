@@ -2,15 +2,37 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: flex;
   background-color: rgba(251, 242, 218, 0.2);
 }
 
 .locations_info {
-  flex-wrap: wrap;
   width: 1440px;
 }
 
+.locations_block {
+  width: 1278px;
+  height: 574px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 81px;
+  margin-right: 81px;
+  margin-bottom: 100px;
+}
+
 .locations_item {
-  width: 50%;
+  position: relative;
+
+}
+
+.locations-pic {
+  border-radius: 8px;
+  padding: 0 0 0 0;
+}
+
+.location-ttl-img {
+  position: absolute;
+}
+
+.locations-link {
+  margin: 0 auto;
 }

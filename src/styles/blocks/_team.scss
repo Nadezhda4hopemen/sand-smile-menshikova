@@ -1,12 +1,18 @@
+.team {
+  background-color:rgba(251, 242, 218, 1);
+}
+
 .team_list {
   display: flex;
   flex-wrap: wrap;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-left: -16px;
-  margin-right: -16px;
-  background-color:rgba(251, 242, 218, 1);
+  justify-content: space-around;
+}
+
+.team-ttl {
+  text-align: left;
 }
 
 .team-people {
@@ -14,13 +20,37 @@
   display: block;
   color: #fff;
 }
+
+.team-area {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  border: 5px solid #D46240;
+  border-radius: 8px;
+}
+
 .team_item{
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  margin: 0;
   padding: 10px;
   object-fit: cover;
-  background-color: rgba(0, 0, 0, .5);
+  text-align: center;
+  font-size: 24px;
+  line-height: 33px;
+  color: #FBF2DA;
+  text-decoration: none;
+  background-color: rgba(21, 43, 60, 0.7);
+}
+
+.team_info {
+  margin-left: 83.5px;
+  margin-right: 83.5px;
+  margin-bottom: 100px;
+}
+
+.team-text {
+  font-size: 20px;
+  line-height: 27px;
 }
