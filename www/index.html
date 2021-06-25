@@ -98,18 +98,17 @@
       </section>
 
       <section class="gallery">
-            <div class="container">
-                <h2 class="gallery_ttl">Фото с мероприятий</h2>
-                <div class="slider">
-                    <img src="icons/photos-from-events-left-arrow.svg" alt="Левая стрелка">
-                    <img src="images/photos-from-events-the-guy-builds.jpg" alt="Парень строит">
-                    <img src="icons/photos-from-events-right-arrow.svg" alt="Правая стрелка">
-                    <img src="icons/photos-from-events-Ellipse-1.svg" alt="Круг 1">
-                    <img src="icons/photos-from-events-Ellipse-2.svg" alt="Круг 2">
-                    <img src="icons/photos-from-events-Ellipse-3.svg" alt="Круг 3">
-                    <img src="icons/photos-from-events-Ellipse-4.svg" alt="Круг 4">
-                </div>
+        <div class="container">
+          <h2 class="gallery_ttl">Фото с мероприятий</h2>
+          <div class="gallery-wrap js-slider-wrap">
+          <button class="slider-btn prev js-btn-prev">prev</button>
+            <div class="slider js-slider">
+                <img src="images/gallery-maxresdefault.jpg" alt="Замок из песка">
+                <img src="images/gallery-the-guy-builds.jpg" alt="Парень строит замок из песка">
             </div>
+          <button class="slider-btn next js-btn-next">next</button>
+          </div>
+        </div>
       </section>
       <section class="locations">
           <div class="container">
@@ -138,6 +137,7 @@
                     <!-- <a href="#" class="locations-link">Подробнее о локации</a> -->
                   </div>
                 </div>
+                <button class="locations-btn ajax">Посмотреть ещё</button>
               </div>
           </div>
       </section>
@@ -228,5 +228,10 @@
             </div>
         </div>
     </footer>
+
+  <script src="scripts/jquery-3.6.0.min.js"></script>
+  <script src="scripts/slick.min.js"></script>
+  <script src="scripts/script.js"></script>
+
 </body>
 </html>

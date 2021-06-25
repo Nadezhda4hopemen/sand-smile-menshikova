@@ -4,6 +4,10 @@
 @import "common/_typography";
 @import "common/_layout";
 
+//plugins
+
+@import "plugins/slick";
+
 // blocks
 @import "blocks/_promo";
 @import "blocks/_header";

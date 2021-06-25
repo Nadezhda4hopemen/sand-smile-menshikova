@@ -1,0 +1,24 @@
+{
+  "locations" : [
+      {
+          "imageUrl" : "images/locations-the-beach-in-the-Peter-and-Paul-fortress.jpg",
+          "link": "test-link.html",
+          "title": "Пляж у крепости"
+      },
+      {
+          "imageUrl" : "images/locations-lighthouse.jpg",
+          "link": "test-link.html",
+          "title": "Маяк"
+      },
+      {
+          "imageUrl" : "images/locations-tercentenary-park.jpg",
+          "link": "test-link.html",
+          "title": "Парк"
+      },
+      {
+          "imageUrl" : "images/locations-beach-in-the-area.jpg",
+          "link": "test-link.html",
+          "title": "Пляж в районе"
+      }
+  ]
+}
